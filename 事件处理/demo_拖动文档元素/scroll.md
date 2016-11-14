@@ -13,3 +13,4 @@
 但是一般来说，要在两种坐标系之间相互转换，必须加上或者减去滚动的偏移量。
 例如，在文档坐标系中，如果一个元素的Y坐标是200像素，并且用户已经把浏览器向下滚动75元素了，那么视口坐标中元素的Y坐标就是125像素。
 如图：
+![示例图](https://github.com/daisyHawen/javascript-book-Authoritative-guide/blob/master/%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86/demo_%E6%8B%96%E5%8A%A8%E6%96%87%E6%A1%A3%E5%85%83%E7%B4%A0/img/1.png?raw=true)
