@@ -7,4 +7,14 @@
  *elementToDrag:接收mouseDown事件的元素或某些包含元素
  *它必须是绝对定位
  *它的style.left和style.top值将随着用户的拖动而改变
+ 
+ *event:mousedown对象
  */
+
+
+
+function drag(elementToDrag, event) {
+	//初始鼠标位置，转换为文档坐标
+	var scroll = getScrollOffsets();
+	var startX =
+}
