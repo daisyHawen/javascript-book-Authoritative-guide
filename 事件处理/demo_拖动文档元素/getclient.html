@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Examples</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="" rel="stylesheet">
+    <style type="text/css">
+    	.big-box{
+    		height: 1000px;
+    	}
+    	div{
+    		border:1px solid blue;
+    	}
+    	#div1{
+    		border:1px solid green;
+    	}
+    </style>
+</head>
+
+<body>
+    <div class="big-box">box1</div>
+    <div id="div1">Test</div>
+    <div class="big-box">box2</div>
+</body>
+<script type="text/javascript">
+/*演示视口坐标——查询元素的几何尺寸*/
+var div1 = document.getElementById('div1');
+var box = div1.getBoundingClientRect();
+console.log(box.left);
+console.log(box.right);
+
+console.log(box.top);
+console.log(box.bottom);
+/*判定元素在某点，传递X和Y坐标，获取在某个区间的元素*/
+var x=document.elementFromPoint(0,100);
+console.log(x);
+//返回的居然是html文档整个！！！
+console.log(div1.offsetLeft);
+console.log(div1.offsetTop);
+
+/*每200毫秒向下滚动10元素*/
+</script>
+
+</html>
