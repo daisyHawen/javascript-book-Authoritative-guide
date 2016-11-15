@@ -4,7 +4,7 @@ function getScrollOffsets(w) {
 	//除了ie8更早版本以外，其他都能用
 	if (w.pageXOffset != null) return {
 			x: w.pageXOffset,
-			y: w.pageYOffset;
+			y: w.pageYOffset
 		}
 		//对标准模式下的IE(或任何浏览器)
 	var d = document;

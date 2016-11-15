@@ -86,3 +86,7 @@ offsetWidth 和offsetTop返回元素的X和Y坐标(针对文档的)
 文档坐标：offsetWidth offsetHeight offsetTop offsetLeft offsetParent; 
 视口坐标：clientWidth clientHeight clientLeft clientTop;
 滚动条坐标：scrollWidth scrollHeight scrollLeft scrollTop;
+
+#js中事件监听的方法总共三种
+1. element.addEventLisener(type,listener[,useCapture]);//IE6-8不支持
+2. element.attachEvent

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="getScrollOffset.js"></script>
+	<script type="text/javascript" src="Drag.js"></script>
+	<style type="text/css">
+		.div1{
+			position: absolute;
+			left:100px;
+			top:100px;
+			width: 250px;
+			background-color: white;
+			border-radius: border:solid black;
+		}
+		.div2{
+			background-color: grey;
+			border-bottom: dotted black;border-radius: padding:3px; font-family: sans-serif;font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+
+<div class="div1"> 
+<div class="div2" onmousedown="drag(this.parentNode,event)">拖动我</div></div>
+
+</body>
+</html>
